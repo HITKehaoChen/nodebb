@@ -10,6 +10,7 @@
   },
   "main": "app.js",
   "scripts": {
+    "dev":"nodebb start",
     "start": "node loader.js",
     "lint": "eslint --cache ./nodebb .",
     "pretest": "npm run lint",
